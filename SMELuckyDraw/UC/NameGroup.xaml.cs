@@ -78,7 +78,7 @@ namespace SMELuckyDraw.UC
 
         public void TurnStop(int number)
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < listName.Count-2; i++)
             {
                 int value = (int)(number / Math.Pow(10, 5 - i));
                 var item = listName[i];

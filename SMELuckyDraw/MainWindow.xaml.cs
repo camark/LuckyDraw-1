@@ -28,13 +28,13 @@ namespace SMELuckyDraw
         private DrawLogic _logic = DrawLogic.Instance();
         private DispatcherTimer winnerTimer = new DispatcherTimer();
         private DispatcherTimer stopTimer = new DispatcherTimer();
-        private static int delayStopFrom = 4;
+        private static int delayStopFrom = 3;
         private int stopCounter = delayStopFrom;
         private int finalValue = 0;
         private string finalValueDesc = "";
         private DrawStatus drawStatus = DrawStatus.STOPPED;
         private Dictionary<string, string> dictIdChar = new Dictionary<string, string>();
-        private int lastNumberItem = 7;
+        private int lastNumberItem = 1;
         private bool isIUser = false;
         private bool isAllTurnStopped = false;
 
